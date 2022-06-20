@@ -1,0 +1,46 @@
+body {
+    --primary-color: #00ADEF;
+    --text-color: #333333;
+    --white-text: #FEFEFE;
+    --gray-bg: #F3F3F3;
+}
+
+html {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container {
+    position: relative;
+}
+
+.pd-0 {
+    padding: 0 !important;
+}
+
+.wrapper, .wrapper-navbar {
+    display: flex;
+    max-width: 1090px;
+    margin: 0 auto !important;
+}
+
+.wrapper {
+    display: block;
+}
+
+.hal-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.gray-bg {
+    background-color: #EBEBEB;
+    height: 100%;
+}
+

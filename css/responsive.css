@@ -1,0 +1,17 @@
+@media (max-width: 992px) {
+    .wrapper-navbar {
+        justify-content: flex-start;
+    }
+
+    .hal-nav {
+        margin-top: 0;
+        width: 100%;
+        background-color: var(--primary-color);
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .hal-nav-link:hover {
+        color: var(--text-color) !important;
+    }
+}
