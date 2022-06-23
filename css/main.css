@@ -10,6 +10,15 @@
 .hal-nav {
     position: absolute !important;
     margin-top: 30px;
+} 
+
+.hal-toggler {
+    border-color: transparent !important;
+}
+
+.hal-toggler:focus {
+    border: 1px solid #8CDAF8 !important;
+    box-shadow: none !important;
 }
 
 .hal-nav-link {
@@ -154,7 +163,7 @@
     border-radius: 8px;
     text-align: center;
     padding-top: 35px;
-    margin: auto;
+    margin: 0px auto 20px;
 }
 
 .choose-achieve__logo {
@@ -246,6 +255,7 @@
     font-weight: 500;
     color: var(--text-color);
     padding: 0 15px;
+    margin: 8px 5px;
     height: 30px;
     display: inline-flex;
     align-items: center;
@@ -551,6 +561,7 @@ footer {
 
 .footer-text {
     color: var(--white-text);
+    margin-bottom: 25px;
 }
 
 .footer-icon {
@@ -578,7 +589,7 @@ footer {
     text-align: center;
     border-top: 2px solid #5ECAF5;
     font-size: 13px;
-    line-height: 40px;
+    padding: 12px;
 }
 
 .contact {
