@@ -304,9 +304,15 @@
 
 .news-img {
     position: relative;
+    overflow: hidden;
+}
+
+.news-img img:hover {
+    transform: scale(1.2);
 }
 
 .news-img img {
+    transition-duration: 0.3s;
     width: 100%;
 }
 
@@ -348,7 +354,14 @@
     font-size: 13px;
     font-weight: bold;
     display: block;
+    cursor: pointer;
 }
+
+.content-title:hover {
+    color: var(--primary-color);
+    transition-duration: 0.3s;
+}
+
 .content-detail {
     font-size: 12px;
     font-weight: 450;
@@ -389,6 +402,10 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.supporter img {
+    border-radius: 14px;
 }
 
 .supporter-text h6, 
@@ -609,6 +626,11 @@ footer {
     font-size: 12px;
     line-height: 30px;
     margin-bottom: 8px;
+    transition-duration: 0.3s;
+}
+
+.contact-icon:hover {
+    transform: scale(1.2);
 }
 
 .zalo-wrapper {
