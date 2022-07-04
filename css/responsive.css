@@ -1,17 +1,33 @@
 @media (max-width: 992px) {
     .wrapper-navbar {
         justify-content: flex-start;
+       
+    }
+
+    .menu-btn-wrapper {
+        display: block;
     }
 
     .hal-nav {
         margin-top: 0;
-        width: 100%;
+        width: 80%;
+        height: 100vh;
         background-color: var(--primary-color);
         padding-top: 10px !important;
         padding-bottom: 10px !important;
+        align-items: start !important;
+        transition-duration: 0.5s;
     }
 
     .hal-nav-link:hover {
         color: var(--text-color) !important;
+    }
+
+    .navbar-right.collapsing {
+        height: auto !important;
+    }
+
+    .navbar-right.collapse:not(.show) {
+        display: block !important;
     }
 }
