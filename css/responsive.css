@@ -1,14 +1,16 @@
 @media (max-width: 992px) {
     .wrapper-navbar {
         justify-content: flex-start;
-       
+        z-index: 1;
     }
 
     .menu-btn-wrapper {
         display: block;
+        position: fixed !important;
     }
 
     .hal-nav {
+        position: fixed !important;
         margin-top: 0;
         width: 80%;
         height: 100vh;
@@ -29,5 +31,31 @@
 
     .navbar-right.collapse:not(.show) {
         display: block !important;
+    }
+
+    .search-form {
+        display: block !important;
+        margin-left: 30px;
+    }
+
+    .btn-search-wrapper {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-right: 30px;
+        background-color: white;
+        height: 35px;
+    }
+
+    .txt-search {
+        display: block;
+        border: none;
+        outline: none;
+        font-size: 14px;
+    }
+
+    .btn-search {
+        color: #757575 !important;
+        width: 40px;
     }
 }

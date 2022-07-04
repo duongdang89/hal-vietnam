@@ -50,6 +50,10 @@
     justify-content: flex-end;
 }
 
+.search-form {
+    display: flex;
+}
+
 .btn-search {
     color: var(--white-text) !important;
     width: 50px;
@@ -66,6 +70,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-right: 5px;
+}
+
+.txt-search {
+   display: none;
 }
 
 /* BANNER */
