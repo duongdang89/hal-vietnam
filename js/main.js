@@ -1,7 +1,6 @@
 var menuBtn = document.querySelector('.menu-btn');
 var closeBtn = document.querySelector('.close-btn');
 var navbarWrapper = document.querySelector('.hal-nav');
-var navbarShow = false;
 var overlay = document.querySelector('.overlay');
 menuBtn.addEventListener('click', function () {
     navbarWrapper.classList.remove('hide-to-left');

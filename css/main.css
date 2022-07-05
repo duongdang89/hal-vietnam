@@ -9,15 +9,24 @@
 .menu-btn-wrapper {
     position: absolute;
     width: 100%;
+    height: 60px;
     display: none;
-    background-color: var(--primary-color);
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 15%);
 }
 
 .menu-btn {
-    color: #8CDAF8;
+    color: var(--primary-color);
     font-size: 20px;
     width: 50px;
     height: 40px;
+    position: absolute;
+    top: 10px;
+}
+
+.logo {
+    width: 50px;
+    margin: auto;
 }
 
 .hal-nav {
@@ -275,6 +284,7 @@
     border-radius: 20px;
     font-size: 13px;
     font-weight: 500;
+    line-height: 30px;
     color: var(--text-color);
     padding: 0 15px;
     margin: 8px 5px;
@@ -508,6 +518,11 @@
     width: 160px;
     color: var(--white-text);
     font-size: 13px;
+    transition-duration: 0.3s;
+}
+
+.hal-form-btn:hover {
+    opacity: 80%;
 }
 
 .btn-clear {
@@ -541,7 +556,7 @@
 .experience-btn {
     margin-top: 30px;
     font-size: 13px;
-    line-height: 39px;
+    line-height: 38px;
 }
 
 .experience-text-wrapper {

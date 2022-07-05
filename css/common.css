@@ -41,6 +41,7 @@ html {
     background-color: transparent;
     border: none;
     outline: none;
+    transition-duration: 0.5s;
 }
 
 .gray-bg {
